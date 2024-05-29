@@ -6,7 +6,7 @@ declare type CreateUserParams = {
   email: string;
   username: string;
   firstName: string | null;
-  lastName: string;
+  lastName: string | null;
   photo: string;
 };
 
